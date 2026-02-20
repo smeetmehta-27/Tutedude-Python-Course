@@ -3,7 +3,7 @@
 This repository contains Python programs created as part of an assignment to practice basic programming concepts such as user input and mathematical operations.
 
 ## Task 1: Perform Basic Mathematical Operations
-Problem : Python program that ->
+### Problem : Python program that ->
 1. Takes two numbers as input from the user.
 2. Performs the following operations:
    - Addition
@@ -12,11 +12,21 @@ Problem : Python program that ->
    - Division
 3. Displays the result of each operation on the screen.
 
-How It Works:
+### How It Works:
 - The user is prompted to enter two numbers.
 - The program calculates and prints the results of all four basic mathematical operations.
 
-Example Output:
+### Code:
+```python
+num1 = int(input("Enter the First Number: "))
+num2 = int(input("Enter the Second Number: "))
+
+print("Addition: ",num1+num2)
+print("Subtraction: ",num1-num2)
+print("Multiplication: ",num1*num2)
+print("Division: ",num1/num2)
+```
+### Example Output:
 Enter the First Number: 5
 Enter the Second Number: 10
 Addition:  15
@@ -25,16 +35,24 @@ Multiplication:  50
 Division:  0.5
 
 ## Task 2: Create a personalized Greeting
-Problem : Python program that ->
+### Problem : Python program that ->
 1.  Takes a user's first name and last name as input.
 2.  Concatenates the first name and last name into a full name.
 3.  Prints a personalized greeting message using the full name.
 
-How It Works:
+### How It Works:
 - The user enters their first and last name.
 - The program concatenates the names into a single full name.
 - A greeting message is displayed.
 
+### Code:
+```python
+first_name = str(input("Enter your first name: "))
+last_name = str(input("Enter your last name: "))
+full_name = first_name + " " + last_name
+
+print("Hello, "+full_name+"! Welcome to Python program.")
+```
 Example Output:
 Enter your first name: Smeet
 Enter your last name: Mehta
